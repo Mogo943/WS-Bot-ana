@@ -1,11 +1,31 @@
-Este bot forma parte del conjunto Bot-ana y realiza las siguientes funciones:
+# WhatsApp Automation Bot – Soporte Operativo para Exchange
 
--Busca el logo verde de mensajes no leídos en WhatsApp Web, excluyendo los grupos.
+Bot desarrollado en Python para automatizar interacciones en WhatsApp Web usando Selenium y Web Scraping. Sirvió como asistente operativo para un equipo que gestionaba tareas en un exchange.
 
--Lee el mensaje no leído de los contactos filtrados.
+## 🧠 ¿Cómo funciona?
 
--Si el mensaje contiene la palabra clave, inicia la conversación; de lo contrario, lo ignora.
+- Lee mensajes en WhatsApp Web desde contactos específicos (usando Selenium).
+- Se activa si detecta la palabra clave `bot` en el mensaje.
+- Despliega un menú de funciones relacionadas con la operativa: 
+  - Consulta de saldos
+  - Accesos a cuentas bancarias
+  - Envío de documentos
+  - Otros accesos clave
+- Si no hay respuesta en 2 minutos, se desactiva del chat.
+- Cuando está inactivo, el chat funciona como una conversación normal (humana).
 
--Verifica que el mensaje con la palabra clave sea reciente.
+## ⚙️ Tecnologías utilizadas
 
--Una vez enviado el mensaje del bot, espera 2 minutos por una respuesta. Si no obtiene ninguna, finaliza la interacción. De igual forma, finaliza si el mensaje obtenido es la opción "Salir".
+- Python
+- Selenium
+- Web Scraping (WhatsApp Web)
+- Lógica de sesión y temporización
+
+## 💡 Aplicación real
+
+Este bot funcionaba en conjunto con [exchange-validation-bot](https://github.com/Mogo943/Bot-ana), automatizando la comunicación operativa con el equipo mediante WhatsApp Web y reduciendo intervención manual.
+
+---
+
+**Autor:** Carlos Mogollón  
+[LinkedIn](https://www.linkedin.com/in/c%D0%B0rlosmogollon)
