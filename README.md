@@ -28,4 +28,4 @@ Este bot funcionaba en conjunto con [exchange-validation-bot](https://github.com
 ---
 
 **Autor:** Carlos Mogollón  
-[LinkedIn](https://www.linkedin.com/in/cariosmogoiion/)
+[LinkedIn](https://www.linkedin.com/in/carlosmogollon-it/)
